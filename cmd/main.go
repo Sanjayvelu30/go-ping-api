@@ -10,7 +10,7 @@ func main() {
 	router := gin.Default() // Use Default() for logging and recovery middleware
 
 	router.GET("/ping", func(c *gin.Context) {
-		c.JSON(200, gin.H{"message": "pong"})
+		c.JSON(200, gin.H{"message": "pong update"})
 	})
 
 	// Run on custom port with error handling
